@@ -19,3 +19,8 @@ num = int(num)
 for i in range (0, num):
     if i % 2 == 0:
         print(str(i))
+        
+#Ej4
+""" peso = input("Introduzca su peso en kg")
+estatura = input("Introduzca su estatura en metros) """
+
