@@ -21,6 +21,9 @@ for i in range (0, num):
         print(str(i))
         
 #Ej4
-""" peso = input("Introduzca su peso en kg")
-estatura = input("Introduzca su estatura en metros) """
-
+peso = float(input("Introduzca su peso en kg"))
+estatura = float(input("Introduzca su estatura en metros"))
+""" peso = float(peso)
+estatura = float(estatura) """
+IMC = peso/estatura ** 2;
+print(f"Su IMC es de {IMC}")
